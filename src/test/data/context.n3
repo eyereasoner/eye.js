@@ -1,0 +1,4 @@
+@prefix ppl: <http://example.org/people#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+
+ppl:Cindy foaf:knows ppl:John.
