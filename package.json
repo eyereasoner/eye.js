@@ -1,6 +1,6 @@
 {
-  "name": "eyejs",
-  "version": "1.0.0",
+  "name": "eyereasonerjs",
+  "version": "0.0.1",
   "description": "A TypeScript wrapper for the EYE reasoner",
   "main": "lib/eye.js",
   "types": "lib/eye.d.ts",
@@ -17,7 +17,7 @@
   },
   "keywords": [
     "N3",
-    "Logic",
+    "Logic", 
     "Reasoning"
   ],
   "author": "Miel Vander Sande",
@@ -36,6 +36,7 @@
     "lib/**/*"
   ],
   "dependencies": {
+    "@types/tmp": "^0.1.0",
     "tmp-promise": "^2.0.2"
   }
 }

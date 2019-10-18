@@ -13,10 +13,10 @@ test('Eye instance', () => {
 
 test('call should return a promise', () => {
   const eye = new Eye();
-  return expect(eye.call([context], rules)).resolves.toBe(fs.readFileSync(output, { encoding: 'UTF-8' }));
+  return expect(eye.query([context], rules)).resolves.toBe(fs.readFileSync(output, { encoding: 'UTF-8' }));
 });
 
 test('callTmp should return temp file', () => {
   const eye = new Eye();
-  return expect(eye.callTmp([context], rules)).resolves.toHaveProperty('path');
+  return expect(eye.queryTmp([context], rules)).resolves.toHaveProperty('path');
 });
