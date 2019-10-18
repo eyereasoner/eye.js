@@ -1,6 +1,6 @@
-import Eye from '../eye';
-import * as path from 'path';
 import * as fs from 'fs';
+import * as path from 'path';
+import Eye from '../eye';
 
 const context = path.join(__dirname, '/data/context.n3');
 const rules = path.join(__dirname, '/data/rules.n3');
