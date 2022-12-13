@@ -1,6 +1,6 @@
 {
   "name": "eyereasonerjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A TypeScript wrapper for the EYE reasoner",
   "main": "lib/eye.js",
   "types": "lib/eye.d.ts",
