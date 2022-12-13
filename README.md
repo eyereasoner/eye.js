@@ -4,13 +4,14 @@ Executes the [Eye N3 reasoner]() and returns the result as a promise.
 
 ## Installation
 
-First install Eye from https://github.com/josd/eye 
+First install Eye from https://github.com/josd/eye.
+
 Install from npm with `npm install eyereasonerjs`.
 
 ```typescript
 
 
-import Eye from 'eyereasonerjs
+import Eye from 'eyereasonerjs'
 
 const eye = new Eye();
 
